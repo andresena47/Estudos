@@ -15,3 +15,8 @@ puts p.nome
 puts p.falar
 
 puts "-------------------"
+
+f = Filha.new
+f.nome = "Gustava"
+puts f.nome
+puts f.falar ("Alô")
